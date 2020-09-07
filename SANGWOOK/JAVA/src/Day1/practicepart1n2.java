@@ -19,7 +19,11 @@ public class practicepart1n2 {
 		/*
 		 * 3
 		 * 	1. 18
+		 * 		 y += 10 -> 15   15-2 -> 13  x++ -> x=3 
+		 * 	연산은 제일 왼쪽부터 오른쪽으로 실행된다라고 생각하면됨
 		 *  2. 4
+		 *  	1번에서 x는 3으로 바뀌었으므로 3+2=5
+		 *  
 		 *  3. false
 		 *  4. 2
 		 *  5. 66  
@@ -36,10 +40,18 @@ public class practicepart1n2 {
 		 * 12. 11 
 		 * 13. 15
 		 * 14. zA10 
-		 *
+		 * 	char ch1 = ‘z’; >122
+		      char ch2 = ‘A’; > 65
+		      byte b = 10; >10
+		      System.out.println(“result = ” +
+		      (ch1 + ch2 + b));
+		      122+ 65 + 10 = 197(+연산은 int형)
+		 *	
 		 */
 	}
 }
+
+
 
 
 
