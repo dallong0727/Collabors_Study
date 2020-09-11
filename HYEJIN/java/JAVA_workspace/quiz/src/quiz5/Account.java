@@ -21,5 +21,5 @@ public class Account {
 		System.out.println("잔액은 " + Account.balace +"원 입니다.");
 	}//잔액확인
 	
-
+  
 }
